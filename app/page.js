@@ -8,7 +8,7 @@ import Section5 from './components/Section5';
 export default function Home() {
   return (
     <div className='MainDiv w-full overflow-x-hidden md:mt-8 mx-auto px-4'>
-      <div className="w-full "> 
+      <div className="w-full"> 
 
         <Section1 />
 
