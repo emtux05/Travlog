@@ -25,10 +25,10 @@ const Nav = () => {
       {/* Desktop menu */}
       <div className="hidden sm:flex flex-row items-center justify-start gap-[150px] text-gray-300">
         <div className='flex gap-[64px]'>
-        <b className="relative leading-[120%] text-gray-100">Home</b>
-        <b className="relative leading-[120%]">Discover</b>
-        <b className="relative leading-[120%]">Special Deals</b>
-        <b className="relative leading-[120%]">Contact</b>
+        <button className="relative leading-[120%] hover:text-gray-100">Home</button>
+        <button className="relative leading-[120%] hover:text-gray-100">Discover</button>
+        <button className="relative leading-[120%] hover:text-gray-100">Special Deals</button>
+        <button className="relative leading-[120%] hover:text-gray-100">Contact</button>
         </div>
         <div className="flex flex-row items-start justify-start text-gray-100 ml-auto">
           <div className="rounded-81xl bg-white flex flex-row py-4 px-8 items-start justify-start">

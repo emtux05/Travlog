@@ -18,13 +18,17 @@ const Section5 = () => {
           <b className="text_responsive relative text-[50px] ml-8 mr-8 leading-[120%] inline-block text-black w-[982px]">Prepare yourself & let’s explore the beauty of the world</b>
         </div>
         <div className=" responsive2 self-stretch flex flex-row items-start justify-start gap-[64px] text-gray-400">
-          <div className="self-stretch flex-1 rounded-13xl bg-white flex flex-row p-8 items-center justify-start gap-[16px]">
+        <div className=" input_container self-stretch flex-1 rounded-13xl bg-white flex flex-row items-center justify-start gap-[16px]">
             <img
-              className="relative w-8 h-8 overflow-hidden shrink-0"
+              className="input_icon relative w-8 h-8 overflow-hidden shrink-0"
               alt=""
               src="/message-1.svg"
             />
-            <b className="relative leading-[120%]">Your Email</b>
+            <input 
+              type="email"
+              className=" input_field rounded-13xl bg-blue"
+              placeholder="Your Email"
+            />
           </div>
           <div className="self-stretch rounded-13xl bg-slateblue flex flex-row py-8 px-16 items-center justify-start text-white">
             <button className="relative leading-[120%]">Subscribe</button>

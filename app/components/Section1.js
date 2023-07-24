@@ -38,11 +38,10 @@ const Section1 = () => {
                 alt=""
                 src="/playcircle5-1.svg"
               />
-              <b className="relative leading-[120%] text-[15px]">Watch Demo</b>
+              <button className="relative leading-[120%] text-[15px]">Watch Demo</button>
             </div>
         </div>
           </div>
-
           <div className="w-full md:w-[310px] p-4 "> 
           <div className="relative w-[772px] h-[713px] mt-4 md:mt-0 text-darkslategray">
             <div className=' earth_img md:w-[310px]'>
